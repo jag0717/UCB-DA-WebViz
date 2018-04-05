@@ -1,0 +1,108 @@
+/* First External CSS Stylesheet */
+/* Styling for HTML elements across different pages */
+body {
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  line-height: 150%;
+  color: black;
+  background:#efeee7;
+  font-weight: normal;
+}
+
+header {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #23CACA; 
+  background:white;  
+}
+
+h4 {
+  font-size: 18px;
+  margin: 20px;
+  color: #23CACA; 
+  background:white;
+}
+
+h6 {
+  font-size: 15px;
+  padding: 20px;
+  background:white;
+  margin-left: 20px;  
+  margin-right:80px;  
+}
+
+hr {
+  margin: 0;
+  margin-right:80px;
+  margin-left: 40px;  
+}
+
+/* navbar responsive behavior */
+
+@media (max-width: 760px) {
+  .navbar-light 
+  {
+    background-color: #23CACA !important;    
+  }
+  .navbar-nav
+  {
+    background-color: white !important;
+    padding: 30px;   
+  }
+  body, html {
+   /* height: 100%;
+    overflow: hidden; */
+    padding-top: 80px;
+    background:white;
+  }
+} 
+
+@media (max-width: 900px) {
+  .my_table {
+    width: 90% !important;
+    margin-left: 20px;  
+  }
+  hr {
+    margin-right:0px !important;    
+  }
+  
+} 
+
+/* CSS Rules for Temperature, Humidity, Cloudiness and Wind Speed Pages */
+.my_container {
+  position: relative;
+  margin: 40px;
+  background: white;
+  margin-top: 100px;
+}
+
+#main {
+  padding: 20px;  
+  margin: 20px;
+  background: white;
+}
+
+/* CSS Rules for Data Page */
+.my_table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  width: 90%;
+  margin-left: 40px;  
+}
+/* CSS Rules for footer */
+.footer {
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}

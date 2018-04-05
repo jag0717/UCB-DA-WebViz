@@ -1,0 +1,150 @@
+/* First External CSS Stylesheet */
+/* Styling for HTML elements across different pages */
+body {
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  line-height: 150%;
+  color: black;
+  background:#efeee7;
+  font-weight: normal;
+}
+
+header {
+  font-size: 24px;
+  padding: 20px;
+  font-weight: bold;
+  color: #23CACA; 
+  background:white;  
+}
+
+h4 {
+  font-size: 18px;
+  margin: auto;
+  color: #23CACA; 
+  background:white;
+}
+
+h6 {
+  font-size: 18px;
+  padding: 20px;
+  background:white;
+}
+
+hr {
+  margin: 0;
+}
+
+/* navbar responsive behavior */
+@media (max-width: 760px)
+{
+  .navbar-light 
+  {
+      background-color: #23CACA !important;
+  }
+  .navbar-nav
+  {
+    background-color: white !important;
+  }
+  body, html {
+    padding-top: 44px;
+    background:white;     
+  }
+}
+
+@media(max-width:900px){
+  
+    #summary {
+      width: 98% !important;
+    }
+  
+    #viz {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      width: 98% !important;
+    }
+  
+    .lat-temp, .lat-humid, .lat-cloud, .lat-wind {
+      width: 22% !important;
+      height:22% !important;
+      margin: 5px !important;
+      padding-bottom: 20px !important;
+    }  
+  }
+  
+
+/* CSS Rules for Summary Page */
+#summary,
+#viz,
+#lat-tmp {
+  float: left;
+}
+
+#lat-tmp 
+{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-set {
+  position: relative;
+  margin: 20px;
+  background: #efeee7;
+  margin-top: 100px;
+}
+
+#summary {
+  width: 60%;
+  background: white;
+  margin-left: 20px;  
+  padding: 20px;  
+}
+
+#viz {
+  width: 35%;
+  background: white; 
+  margin-left: 20px;
+  padding: 20px;  
+}
+
+.box {
+  /* Absolute Position */
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 20px;    
+}
+
+.lat-temp {
+  top: 0;
+  left: 0;
+}
+
+.lat-humid {
+  top: 0;
+  left: 50%;
+}
+
+.lat-cloud {
+  top: 50%;
+  left: 0;
+}
+
+.lat-wind {
+  top:50%;
+  right:50%;
+}
+
+/* CSS Rules for footer */
+.footer {
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}

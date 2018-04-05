@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Wind Speed</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light  bg-white" style="padding: 0px; align-items:baseline">
+        <a class="navbar-brand" href="index.html" style="margin-left:50px; padding:20px; background:#23CACA; color:white; font-size:24px; font-weight:bold;font-family: 'Times New Roman', Times, serif;">Lattitude</a>      
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" style="font-size:15px; margin-right:20px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots
+                      <span class="caret"></span>
+                    </a>
+                 
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="max_temp.html" style="font-size:13px">Max Temperature</a>
+                      <a class="dropdown-item" href="humid.html" style="font-size:13px">Humidity</a>
+                      <a class="dropdown-item" href="cloud.html"style="font-size:13px">Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html" style="font-size:13px">Wind Speed</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html" style="font-size:15px; margin-right:20px;">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html" style="font-size:15px; margin-right:20px;">Data</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  <div class="my_container">
+      <section id="main">
+        <header>Wind Speed</header> 
+        <br> <hr> <br>
+      <section id="figure" style="padding-left: 40px;">
+        <img src="image/CityWind.png" alt="Lat. vs Temp.">
+      </section>
+      <h6>The speed of wind is 20mph or less in the sourthern hemisphere whereas in the northern hemisphere it goes upto 40mph approximately. The wind speed is significantly high when the Latitude is between 40 and 60. </h6>
+      <br>
+    </section>
+  </div>
+  <div class="footer">
+      <p>© Copyright Coding Bootcamp 2018</p>
+  </div> 
+</body>
+</html>
